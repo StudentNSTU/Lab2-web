@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.wrapper{
+    display: flex;
+    gap: 50px;
+    height: 100%;
+}
+
+.dep-type{
+    display: flex;
+    gap: 20px;
+}
+
+.sum-block{
+    text-align: center;
+}
+
+.sum-block input{
+    width: 100%;
+}
+
+.react-dev-block{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.result{
+    border: 1px solid #000;
+    padding: 30px;
+    height: 100%;
+}
+
+@media (max-width: 600px) {
+    .wrapper{
+        flex-flow: column;
+    }
+}

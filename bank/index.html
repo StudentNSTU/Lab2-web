@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная №2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+
+        <div class="tools">
+            <div class="dep-type">
+                <div>
+                    <p>Вид вклада</p>
+                    <select name="" id="" class="deposit">
+                        <option value="Пополняемый">Пополняемый</option>
+                        <option value="Срочный">Срочный</option>
+                    </select>
+                </div>
+
+                <div>
+                    <p>Срок вклада</p>
+                    <select name="" id="" class="deposit-period">
+                        <option value="">----</option>
+
+                    </select>
+                </div>
+
+            </div>
+
+
+            <div class="sum-block">
+                <p>Сумма вклада</p>
+                <input class="value-input" type="range" min="1000" max="100000" value="1000">
+                <p class="value"></p>
+            </div>
+
+            <div class="react-dev-block">
+                <input class="react-dev-inp" type="checkbox">
+                <p>Я React разработчик ( +5% )</p>
+
+            </div>
+
+            <button class="calc">Рассчитать</button>
+
+        </div>
+
+
+        <div class="result">
+            <p class="result-text">Настройте вклад под себя!)</p>
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
